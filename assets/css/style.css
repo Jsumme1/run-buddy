@@ -44,7 +44,7 @@ header {
   }
 
   header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
   }
@@ -85,6 +85,7 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
   }
   .hero-form{
     background-color:#fce138;
@@ -105,7 +106,7 @@ header {
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
   }
 
   .hero h2{
@@ -157,7 +158,7 @@ header {
   }
 
   .section-title{
-    font-size:  55px;
+    font-size:  48px;
     color: #024e76;
     border-bottom: 3px solid;
     padding-bottom: 20px;
@@ -323,8 +324,8 @@ header {
   }
 
   .contact-info a{
-    color:#fce138
-    font-size: 16px
+    color:#fce138;
+    font-size: 16px;
   }
 
 
@@ -350,5 +351,23 @@ header {
 }
   /*REACH PUT STYLES END */
 
-
+/* MEDIA QUERY FOR SMALLER DESKTOPS SCREENS AND SMALLER */
+@media screen and (max-width: 980px){
+  /* this will be applied on any screen smaller than 980pX*/
+     }
+}
   
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  
+  /* this will be applied on any screen between 768px and 575px */
+  
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES ADN SMALLER */
+@media screen and (max-width: 575px) {
+   
+    /* this will be applied on any screen smaller than 575px */
+  
+   }
